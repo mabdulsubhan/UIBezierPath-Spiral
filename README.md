@@ -27,3 +27,4 @@ let endtheta: CGFloat = 30
 let thetastep: CGFloat = 1
 YourLayer.path = UIBezierPath.getSpiralPath(center: center, startRadius: startRad, spacePerLoop: space, startTheta: starttheta, endTheta: endtheta, thetaStep: thetastep).cgPath
 ```
+![Sample](https://raw.githubusercontent.com/mabdulsubhan/UIBezierPath-Spiral/blob/master/sample.png)
